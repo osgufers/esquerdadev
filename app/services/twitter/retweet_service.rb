@@ -34,7 +34,7 @@ module Twitter
     private
 
     MAXIMUM_HASHTAG_COUNT = 3
-    HASHTAGS_TO_WATCH = %w[#esquerdadev]
+    HASHTAGS_TO_WATCH = %w[#esquerdadev #EsquerdaDev]
 
     attr_reader :config, :rest_client
     attr_accessor :sensitive_user_ids, :last_fetched_on
